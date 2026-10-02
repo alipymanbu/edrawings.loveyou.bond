@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>eDrawings 安卓版介绍：手机上看 CAD 图纸与三维模型</title>
+<meta name="description" content="eDrawings 是达索系统推出的 CAD 看图工具。本页整理其安卓版的核心功能、支持的文件格式、免费版与 Pro 的差异，以及安装文件资源的获取指引。">
+<meta name="keywords" content="edrawings,CAD看图,SOLIDWORKS,DXF,DWG,STEP">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="/">
+      <svg class="brand-mark" viewBox="0 0 26 26" aria-hidden="true">
+        <g fill="none" stroke="#5cc8ff" stroke-width="1.5">
+          <path d="M13 2 24 8.2 24 17.8 13 24 2 17.8 2 8.2Z"/>
+          <path d="M13 2 13 12.6 24 8.2M13 12.6 2 8.2M13 12.6 13 24"/>
+        </g>
+        <circle cx="13" cy="12.6" r="2.2" fill="#f2b544"/>
+      </svg>
+      eDrawings<em>.看图指南</em>
+    </a>
+    <nav class="topnav">
+      <a href="#about">关于</a>
+      <a href="#features">功能</a>
+      <a href="#formats">格式</a>
+      <a href="#versions">版本</a>
+      <a class="nav-cta" href="download.html">安装指引 →</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- ================= Hero ================= -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="kicker">CAD VIEWER · ANDROID</p>
+        <h1>把 CAD 图纸装进手机：<em>eDrawings</em> 安卓版</h1>
+        <p class="lead">eDrawings 是达索系统（DASSAULT SYSTÈMES）推出的 2D/3D 看图工具，工程图、三维模型在手机上直接打开，旋转、缩放、剖切一目了然。这里整理它的功能清单、格式支持与版本差异，并给出安装文件资源的获取方式。</p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" data-link="download" href="#" aria-label="获取 eDrawings 安装文件资源">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M4 19h16"/></svg>
+            获取安装文件资源
+          </a>
+          <a class="btn btn-ghost" href="download.html">查看安装步骤</a>
+        </div>
+        <div class="facts">
+          <span class="fact">版本 <b>31.4.0030</b></span>
+          <span class="fact">体积 <b>170.2 MB</b></span>
+          <span class="fact">系统 <b>Android 10+</b></span>
+          <span class="fact">格式 <b>APK</b></span>
+        </div>
+      </div>
+      <figure class="hero-fig" aria-hidden="true">
+        <svg viewBox="0 0 480 360" role="img">
+          <g fill="none" stroke="#5cc8ff" stroke-width="1.6" stroke-linejoin="round">
+            <!-- 等轴测线框体 -->
+            <path d="M240 60 380 130 380 220 240 290 100 220 100 130Z" opacity="0.95"/>
+            <path d="M240 60 240 150 380 130M240 150 100 130M240 150 240 290" opacity="0.6"/>
+            <!-- 顶面孔 -->
+            <ellipse cx="240" cy="112" rx="38" ry="18"/>
+            <path d="M202 112c0 10 17 18 38 18" opacity="0.55" stroke-dasharray="4 5"/>
+            <!-- 棱线端点 -->
+            <g fill="#9ad9ff" stroke="none">
+              <circle cx="240" cy="60" r="2.4"/><circle cx="380" cy="130" r="2.4"/>
+              <circle cx="100" cy="130" r="2.4"/><circle cx="240" cy="290" r="2.4"/>
+            </g>
+          </g>
+          <!-- 剖切位置线 A-A -->
+          <g stroke="#f2b544" stroke-width="1.3">
+            <path d="M64 170 416 170" stroke-dasharray="10 6"/>
+            <circle cx="64" cy="170" r="11" fill="#0a1524"/>
+            <circle cx="416" cy="170" r="11" fill="#0a1524"/>
+          </g>
+          <text x="64" y="175" fill="#f2b544" font-family="Chakra Petch,monospace" font-size="12" text-anchor="middle">A</text>
+          <text x="416" y="175" fill="#f2b544" font-family="Chakra Petch,monospace" font-size="12" text-anchor="middle">A</text>
+          <!-- 尺寸标注：底边两条 -->
+          <g stroke="#f2b544" stroke-width="1.2">
+            <path d="M100 236 240 306" marker-start="url(#arr)"/>
+            <path d="M240 306 380 236" marker-end="url(#arr)"/>
+            <path d="M100 226 100 244M240 296 240 314M380 226 380 244" opacity="0.7"/>
+          </g>
+          <text x="156" y="284" fill="#f2b544" font-family="Chakra Petch,monospace" font-size="12" text-anchor="middle" transform="rotate(26 156 284)">120.00</text>
+          <text x="324" y="284" fill="#f2b544" font-family="Chakra Petch,monospace" font-size="12" text-anchor="middle" transform="rotate(-26 324 284)">120.00</text>
+          <defs>
+            <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0 0 10 5 0 10Z" fill="#f2b544"/>
+            </marker>
+          </defs>
+        </svg>
+        <figcaption class="fig-cap">FIG.01 / SECTION A-A</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ================= 关于 ================= -->
+  <section class="section" id="about">
+    <div class="wrap">
+      <p class="sec-tag">01 / OVERVIEW</p>
+      <h2 class="sec-title">eDrawings 是什么</h2>
+      <p class="sec-desc">它解决的问题很具体：设计文件在工程师的电脑里，而要看图的人手上只有手机。</p>
+      <div class="grid-2">
+        <div class="card reveal">
+          <h3>给不看 CAD 的人看的</h3>
+          <p>eDrawings 文件是高度压缩的电子格式，方便邮件与即时通讯工具传输。收件人不需要装任何 CAD 软件，用免费的看图客户端打开即可，工程师与非技术同事之间传递图纸信息因此省去大量来回解释。</p>
+        </div>
+        <div class="card reveal">
+          <h3>给常在现场的人用的</h3>
+          <p>车间对照加工、外出给客户演示、出差途中核对装配关系——这些场景掏出手机比打开工作站快得多。多点触控旋转缩放、动画视图切换、爆炸状态查看，都按移动端的使用习惯重新设计过。</p>
+        </div>
+      </div>
+      <p class="tbl-note" style="margin-top:18px">本页介绍的是安卓手机/平板客户端（包名 com.solidworks.eDrawingsAndroid），iPhone/iPad 与 Windows/macOS 桌面版能力不完全相同，差异见下文。</p>
+    </div>
+  </section>
+
+  <!-- ================= 功能 ================= -->
+  <section class="section" id="features">
+    <div class="wrap">
+      <p class="sec-tag">02 / FEATURES</p>
+      <h2 class="sec-title">核心功能</h2>
+      <p class="sec-desc">看图、量尺寸、做标注，手机端的能力边界在这里一次说清。</p>
+      <div class="cards">
+        <div class="card reveal">
+          <div class="card-icon"><svg viewBox="0 0 24 24" stroke-linejoin="round"><path d="M12 3 21 8 21 16 12 21 3 16 3 8Z"/><path d="M12 3 12 12 21 8M12 12 3 8M12 12 12 21"/></svg></div>
+          <h3>多格式直接打开</h3>
+          <p>eDrawings / SOLIDWORKS 原生 / DXF、DWG / STEP / IGES / JT / IFC，从邮件附件、网盘或局域网共享里拿到文件就能看。</p>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon"><svg viewBox="0 0 24 24" stroke-linecap="round"><path d="M9 11V6a2 2 0 1 1 4 0v5l3.2 1.2a2 2 0 0 1 1.2 2.4l-1 3.4a2 2 0 0 1-1.9 1.5H11a2 2 0 0 1-1.6-.8L6 15"/><path d="M6 15l1.8-1.8a1.4 1.4 0 0 1 2 0L9 14.5"/></svg></div>
+          <h3>触控手势看图</h3>
+          <p>单指旋转、双指捏合缩放、双指拖动平移、双击适配屏幕；工程图逐张翻看，标准视图以动画方式切换。</p>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon"><svg viewBox="0 0 24 24" stroke-linejoin="round"><path d="M8 7 4 4.5 4 9.5 8 12ZM16 7 20 4.5 20 9.5 16 12Z"/><path d="M9 12h6M12 12v5M12 5v7"/><path d="M4 17l3 3h10l3-3" stroke-dasharray="3 3"/></svg></div>
+          <h3>爆炸视图与动画</h3>
+          <p>从 SOLIDWORKS 发布的 eDrawings 文件可带分解状态，手机上直接看装配关系；模型视图切换全程带过渡动画。</p>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon"><svg viewBox="0 0 24 24" stroke-linejoin="round"><path d="M12 3 21 7.5 12 12 3 7.5Z"/><path d="M3 12l9 4.5 9-4.5M3 16.5 12 21l9-4.5"/></svg></div>
+          <h3>配置（Configurations）</h3>
+          <p>同一零件或装配体的多个设计规格，打开时指定要看哪个配置，不必把整套状态一起带进手机。</p>
+        </div>
+        <div class="card reveal">
+          <span class="pro-chip">PRO</span>
+          <div class="card-icon"><svg viewBox="0 0 24 24" stroke-linecap="round"><path d="M3 17 17 3l4 4L7 21H3Z"/><path d="M13 7l4 4M7 17h.01M10 14l-3 3"/></svg></div>
+          <h3>测量 · 剖切 · 标注</h3>
+          <p>距离、角度、点对点测量，XY/YZ/ZX 方向动态剖切截面，文字与手绘标记可存进文件随图流转。</p>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon"><svg viewBox="0 0 24 24" stroke-linejoin="round"><path d="M4 8V5a1 1 0 0 1 1-1h3M16 4h3a1 1 0 0 1 1 1v3M20 16v3a1 1 0 0 1-1 1h-3M8 20H5a1 1 0 0 1-1-1v-3"/><path d="M12 8 17 10.8 17 15.6 12 18.4 7 15.6 7 10.8Z"/><path d="M12 8 12 13.2 17 10.8M12 13.2 7 10.8"/></svg></div>
+          <h3>AR 实景查看</h3>
+          <p>调起摄像头把模型放进真实环境比对大小与位置。依赖 ARCore 支持，具体以设备兼容名单为准。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 格式 ================= -->
+  <section class="section" id="formats">
+    <div class="wrap">
+      <p class="sec-tag">03 / FORMATS</p>
+      <h2 class="sec-title">支持的文件格式</h2>
+      <p class="sec-desc">拿到文件先对一眼清单。个别格式的版本上限可能随应用更新变化，以应用当时的说明为准。</p>
+      <div class="tbl-panel reveal">
+        <table>
+          <thead>
+            <tr><th>类别</th><th>扩展名</th><th>版本 / 限制</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>eDrawings 文件</td><td class="mono">.eprt / .easm / .edrw</td><td>—</td></tr>
+            <tr><td>SOLIDWORKS 原生</td><td class="mono">.sldprt / .sldasm / .slddrw</td><td>零件、装配体、工程图</td></tr>
+            <tr><td>DXF / DWG</td><td class="mono">.dxf / .dwg</td><td>—</td></tr>
+            <tr><td>STEP</td><td class="mono">.step / .stp / .stpz</td><td>AP 203 E1/E2、AP 214、AP 242</td></tr>
+            <tr><td>IGES</td><td class="mono">.iges / .igs</td><td>5.1 / 5.2 / 5.3</td></tr>
+            <tr><td>JT</td><td class="mono">.jt</td><td>v10.0 及更早；不支持 PMI</td></tr>
+            <tr><td>IFC</td><td class="mono">.ifc</td><td>建筑信息模型常用</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="grid-2" style="margin-top:22px">
+        <div class="card reveal">
+          <h3>文件从哪里进来</h3>
+          <p>电子邮件附件、Dropbox / Google Drive / OneDrive 等云存储、网页直链与 FTP 站点、局域网网络文件夹，都可作为打开来源。</p>
+        </div>
+        <div class="card reveal">
+          <h3>手机打不开的格式</h3>
+          <p>Inventor、CATIA、Creo、ACIS、3DXML 等工业格式仅桌面版支持。想在小屏上看，先用电脑端转成 eDrawings 文件或 STEP 再传手机。</p>
+        </div>
+      </div>
+      <p class="tbl-note">实操建议：遇到原生文件因版本不兼容打不开时，在电脑端把模型另存为 STEP 或 IGES 这类通用中性格式再传手机，通常能绕开版本问题。</p>
+    </div>
+  </section>
+
+  <!-- ================= 版本对比 ================= -->
+  <section class="section" id="versions">
+    <div class="wrap">
+      <p class="sec-tag">04 / FREE VS PRO</p>
+      <h2 class="sec-title">免费版与 Pro 的差异</h2>
+      <p class="sec-desc">手机上只有一个应用：本体免费，Pro 能力通过应用内购买解锁，不用装第二个。</p>
+      <div class="tbl-panel reveal">
+        <table>
+          <thead>
+            <tr><th>功能</th><th>免费版</th><th>Pro（应用内购买）</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>打开查看 2D/3D 文件</td><td>有</td><td>有</td></tr>
+            <tr><td>多点触控缩放、平移、旋转</td><td>有</td><td>有</td></tr>
+            <tr><td>动画 3D 标准视图</td><td>有</td><td>有</td></tr>
+            <tr><td>浏览 2D 工程图</td><td>有</td><td>有</td></tr>
+            <tr><td>全屏查看、双击适配屏幕</td><td>有</td><td>有</td></tr>
+            <tr><td>测量（距离、角度、长度、点对点）</td><td>—</td><td>有</td></tr>
+            <tr><td>横截面（XY / YZ / ZX，可拖动）</td><td>—</td><td>有</td></tr>
+            <tr><td>创建标记（文字注释、手绘符号）</td><td>—</td><td>有</td></tr>
+            <tr><td>共享带标记的文件</td><td>—</td><td>有</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="grid-2" style="margin-top:22px">
+        <div class="card reveal">
+          <h3>只看图，免费版够用</h3>
+          <p>车间对照、给客户展示、日常查阅，免费版完全覆盖。需要量尺寸、查内部结构、在图上圈改再发回去，才考虑升级 Pro。</p>
+        </div>
+        <div class="card reveal">
+          <h3>先试文件再决定</h3>
+          <p>电脑端 Professional 发布的「审阅启用」文件，收件人用免费版就能测量和标注。收到别人发的 eDrawings 文件时先开出来试试，再决定要不要升级。</p>
+        </div>
+      </div>
+      <p class="tbl-note">注意测量还有一道文件级开关：eDrawings 文件在电脑端发布时若未勾选允许测量，任何人在任何设备上都量不了，与是否购买 Pro 无关。</p>
+    </div>
+  </section>
+
+  <!-- ================= FAQ ================= -->
+  <section class="section" id="faq">
+    <div class="wrap">
+      <p class="sec-tag">05 / FAQ</p>
+      <h2 class="sec-title">常见问题</h2>
+      <p class="sec-desc">装机与使用中最常被问到的几件事。</p>
+      <div class="faq reveal">
+        <details>
+          <summary>安装包从哪里获取？</summary>
+          <div class="faq-a">本站提供获取指引，安装文件资源放在网盘中，点击页面上「获取安装文件资源」按钮即可前往分享页面，转存后下载到手机安装。</div>
+        </details>
+        <details>
+          <summary>为什么有的文件打不开？</summary>
+          <div class="faq-a">先核对扩展名是否在上面的格式清单里（传输过程可能弄丢扩展名），再确认文件完整传到了手机；SOLIDWORKS 原生文件还要核对保存版本是否比查看器新。都不行就转成 STEP 再试。</div>
+        </details>
+        <details>
+          <summary>装了 Pro 还是量不了尺寸？</summary>
+          <div class="faq-a">多数是文件级开关没开：eDrawings 文件在电脑端发布或另存时没勾允许测量，收件方怎么设置都量不了，只能让发件人重新发布一份。直接打开 STEP、DWG 等原始格式不受此开关限制。</div>
+        </details>
+        <details>
+          <summary>AR 模式进不去怎么办？</summary>
+          <div class="faq-a">安卓上的 AR 功能依赖 ARCore 与相应硬件，未预装谷歌服务的机型大多用不了；摄像头与动作传感器权限被拒也会导致功能失效，先到系统设置里确认权限。</div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CTA ================= -->
+  <section class="section">
+    <div class="wrap">
+      <div class="cta-band reveal">
+        <div>
+          <h2>准备好看图了吗</h2>
+          <p>安装文件资源已备好，配合安装步骤指引，几分钟装到手机上。</p>
+        </div>
+        <a class="btn btn-primary" data-link="download" href="#">获取安装文件资源</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot-inner">
+    <span>© 2026 edrawings.loveyou.bond · 第三方软件介绍页</span>
+    <span>页面信息整理自公开资料，仅供参考；展示内容版权归原作者所有。</span>
+    <span>版本与系统要求可能随应用更新变化，请以获取到的安装文件实际信息为准。</span>
+  </div>
+</footer>
+
+<div class="fabs">
+  <button id="toTop" class="fab" aria-label="返回顶部">↑</button>
+  <a class="fab" data-link="download" href="#" aria-label="获取安装文件资源">
+    <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11m0 0 4-4m-4 4-4-4M5 19h14"/></svg>
+  </a>
+</div>
+
+<script src="assets/js/links.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

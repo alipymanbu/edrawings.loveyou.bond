@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>eDrawings 安卓版：装前核对与安装步骤</title>
-<meta name="description" content="eDrawings 安卓版安装文件资源获取指引：版本信息核对、网盘转存下载、允许未知来源安装、首次启动建议，一步步把 CAD 看图工具装进手机。">
-<meta name="keywords" content="edrawings下载,edrawings安装,edrawings安卓版,CAD看图">
+<title>eDrawings 下载与安装：安卓手机安装包怎么装</title>
+<meta name="description" content="把 eDrawings 装进安卓手机的操作页：从网盘转存并下载安装包，开启未知来源后完成安装，再看首次打开要点与常见安装问题的处理办法。">
+<meta name="keywords" content="edrawings下载,edrawings安装,edrawings安卓版,edrawings apk,CAD看图">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
@@ -42,133 +42,101 @@
   <!-- ================= Hero ================= -->
   <section class="hero">
     <div class="wrap">
-      <p class="kicker">GET STARTED · INSTALL GUIDE</p>
-      <h1>获取 <em>eDrawings</em> 安装文件资源</h1>
-      <p class="lead">本页整理安卓版 eDrawings 的安装文件信息核对、下载转存、安装授权与首次启动的完整流程，跟着做即可装到手机或平板上。</p>
+      <p class="kicker">DOWNLOAD · INSTALL</p>
+      <h1>下载 <em>eDrawings</em> 安装包</h1>
+      <p class="lead">点下面的按钮去网盘把安装包转存并下载到手机，再按本页步骤开启未知来源、完成安装。全程手机单机操作，几分钟就能拿它打开 CAD 图纸。</p>
       <div class="hero-ctas">
-        <a class="btn btn-primary" data-link="download" href="#" aria-label="获取 eDrawings 安装文件资源">
+        <a class="btn btn-primary" data-link="download" href="#" aria-label="下载 eDrawings 安装包">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M4 19h16"/></svg>
-          获取安装文件资源
+          下载安装包
         </a>
-        <a class="btn btn-ghost" href="/#formats">先看格式清单</a>
+        <a class="btn btn-ghost" href="#steps">看安装步骤</a>
       </div>
-      <div class="info-grid">
-        <div class="info-cell"><div class="k">版本</div><div class="v">31.4.0030</div></div>
-        <div class="info-cell"><div class="k">包名</div><div class="v">com.solidworks.eDrawingsAndroid</div></div>
-        <div class="info-cell"><div class="k">体积</div><div class="v">170.2 MB</div></div>
-        <div class="info-cell"><div class="k">系统要求</div><div class="v">Android 10 及以上</div></div>
-      </div>
-      <p class="tbl-note">开发方为达索系统（DASSAULT SYSTÈMES）。应用商店里的版本一直在更新，这里列的是手上这份安装文件的实际信息，功能与系统要求以实际安装的版本为准。</p>
+      <p class="tbl-note">本页对应安装包为 31.4.0030 版，适用于 Android 10 及以上系统；装好后可直接打开 DWG、DXF、STEP 等常见图纸格式。</p>
     </div>
   </section>
 
-  <!-- ================= 步骤 ================= -->
-  <section class="section">
+  <!-- ================= 安装步骤 ================= -->
+  <section class="section" id="steps">
     <div class="wrap">
       <p class="sec-tag">01 / STEPS</p>
-      <h2 class="sec-title">三步装到手机上</h2>
-      <p class="sec-desc">全程不需要电脑参与，手机单机也能完成。</p>
+      <h2 class="sec-title">四步装到手机上</h2>
+      <p class="sec-desc">不需要电脑参与，从拿到安装包到打开，都在手机上完成。</p>
 
       <div class="steps">
         <div class="step reveal">
           <div class="step-no" aria-hidden="true"></div>
           <div>
-            <h3>取得安装文件</h3>
-            <p>点击下方按钮前往网盘分享页面，把安装文件资源转存到自己的网盘账户，再用夸克 App 把它下载到手机存储。APK 不走应用商店，转存下载是最稳的一条路。</p>
+            <h3>转存并下载安装包</h3>
+            <p>点按钮前往网盘分享页面，把安装包转存到自己的网盘账号，再用客户端把它下载到手机存储。APK 不走应用商店，转存下载是最稳的一条路。</p>
             <div class="step-cta">
-              <a class="btn btn-primary" data-link="download" href="#">获取安装文件资源</a>
+              <a class="btn btn-primary" data-link="download" href="#">下载安装包</a>
             </div>
-            <p>想核对文件是否完整：在电脑上用 <span class="mono">certutil -hashfile 文件名 MD5</span> 这类命令算一下，结果应为 <span class="mono">B6A717C6AC14377F7D4A0642666D44B0</span>。</p>
           </div>
         </div>
 
         <div class="step reveal">
           <div class="step-no" aria-hidden="true"></div>
           <div>
-            <h3>允许安装来源</h3>
-            <p>APK 不从商店安装，系统会先拦一道。Android 8 以后按「哪个应用发起安装」来授权：</p>
+            <h3>允许这次安装来源</h3>
+            <p>APK 不从商店安装，系统会先拦一道。点开安装包，若提示「禁止安装未知应用」，选「设置」，打开「允许来自此来源的应用」，返回重新点安装。</p>
             <ul>
-              <li>点开 APK，系统提示「禁止安装未知应用」时选「设置」；</li>
-              <li>打开「允许来自此来源的应用」；</li>
-              <li>返回重新点安装。</li>
+              <li>找不到入口时走总开关：<span class="hl">设置 → 应用 → 特殊应用权限 → 安装未知应用</span>，给文件管理器或浏览器授权；</li>
+              <li>小米、华为等国产系统还会再弹「未经安全检测」的确认，属正常提示，确认继续即可。</li>
             </ul>
-            <p>找不到入口时走总开关：<span class="hl">设置 → 应用 → 特殊应用权限 → 安装未知应用</span>，给文件管理器或浏览器授权，装完建议把授权关回去。小米、华为等国产系统还会额外弹「未经安全检测」的确认，属正常提示，确认继续即可。</p>
           </div>
         </div>
 
         <div class="step reveal">
           <div class="step-no" aria-hidden="true"></div>
           <div>
-            <h3>首次启动</h3>
-            <p>装好点开，应用里随附了样例文件。建议先用样例图把旋转、缩放的手势练一遍，再去开自己的文件，能省不少摸索时间。</p>
-            <ul>
-              <li>开自己的文件前，先确认格式在支持清单里，见<a href="/#formats">首页的格式表格</a>；</li>
-              <li>只收图看图的场景免费版就够用，测量、剖切、标注按需再升级；</li>
-              <li>手机端能保存绝大多数格式，但 SOLIDWORKS 原生格式除外，转回原生文件要在电脑上做。</li>
-            </ul>
+            <h3>等安装进度走完</h3>
+            <p>点「安装」后等进度条走完，安装过程不需要联网。安装包 170MB 左右，低端机上会慢一些，让它跑完即可。</p>
+          </div>
+        </div>
+
+        <div class="step reveal">
+          <div class="step-no" aria-hidden="true"></div>
+          <div>
+            <h3>打开应用试一张图</h3>
+            <p>装好点开，应用里随附了样例文件。先用样例把旋转、缩放手势练一遍，再打开自己的图纸；格式是否支持，可回<a href="/#formats">首页的格式表格</a>核对。</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ================= 注意事项 ================= -->
-  <section class="section">
-    <div class="wrap">
-      <p class="sec-tag">02 / NOTES</p>
-      <h2 class="sec-title">装机前后的小提醒</h2>
-      <div class="grid-2">
-        <div class="card reveal">
-          <h3>版本差异要有预期</h3>
-          <p>不同渠道流传的安装包版本不一，界面与功能可能与网上教程截图有出入；安装前留意系统要求，老系统装新版可能装不上或闪退。</p>
-        </div>
-        <div class="card reveal">
-          <h3>升级 Pro 与付费</h3>
-          <p>Pro 通过应用内购买解锁，购买、退款与换机恢复都走应用商店的订单机制，规则以商店当时政策为准；价格按地区不同。</p>
-        </div>
-        <div class="card reveal">
-          <h3>手机与电脑不是一套能力</h3>
-          <p>Inventor、CATIA、Creo 等工业格式只有桌面版支持；手机端转不回 SOLIDWORKS 原生格式，编辑与转换要在装了 CAD 软件的电脑上做。</p>
-        </div>
-        <div class="card reveal">
-          <h3>测量不了先查文件</h3>
-          <p>收到 eDrawings 文件量不了尺寸，多数不是设备问题，而是发布时没开放测量权限，让发件人重新发布一份即可。</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ================= FAQ ================= -->
-  <section class="section">
-    <div class="wrap">
-      <p class="sec-tag">03 / FAQ</p>
-      <h2 class="sec-title">安装相关疑问</h2>
-      <div class="faq reveal">
-        <details>
-          <summary>点安装没反应或提示解析失败？</summary>
-          <div class="faq-a">多半是文件没下载完整，先核对 MD5；也可能与系统版本不匹配，确认手机是 Android 10 及以上再重试。</div>
-        </details>
-        <details>
-          <summary>安装后启动闪退？</summary>
-          <div class="faq-a">先确认系统版本达标，再给应用完整的存储权限；仍闪退可尝试重启手机后单独打开，排除安全软件拦截。</div>
-        </details>
-        <details>
-          <summary>能不能只装一个应用覆盖所有看图需求？</summary>
-          <div class="faq-a">可以。免费版与 Pro 是同一个应用，通过应用内购买解锁 Pro 能力，不需要再装别的客户端。</div>
-        </details>
-      </div>
-    </div>
-  </section>
-
-  <!-- ================= CTA ================= -->
+  <!-- ================= 再给一次下载入口 ================= -->
   <section class="section">
     <div class="wrap">
       <div class="cta-band reveal">
         <div>
-          <h2>文件就在网盘里</h2>
-          <p>转存到自己的账户再下载，避免传输途中损坏。</p>
+          <h2>安装包还在网盘里</h2>
+          <p>转存到自己的账户再下载，避免分享失效后拿不到。</p>
         </div>
-        <a class="btn btn-primary" data-link="download" href="#">获取安装文件资源</a>
+        <a class="btn btn-primary" data-link="download" href="#">下载安装包</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 常见安装问题 ================= -->
+  <section class="section">
+    <div class="wrap">
+      <p class="sec-tag">02 / FAQ</p>
+      <h2 class="sec-title">安装时最常见的三个问题</h2>
+      <div class="faq reveal">
+        <details>
+          <summary>点安装没反应，或提示「解析失败」？</summary>
+          <div class="faq-a">多半是安装包没下载完整，删掉后重新从自己的网盘下一次；也可能是系统版本低于 Android 10，先确认系统要求再重试。</div>
+        </details>
+        <details>
+          <summary>一直提示「禁止安装未知应用」？</summary>
+          <div class="faq-a">回到系统设置 → 应用 → 特殊应用权限 → 安装未知应用，给本次发起安装的应用（文件管理器或浏览器）打开开关，再重新点安装包。</div>
+        </details>
+        <details>
+          <summary>装好后打开就闪退？</summary>
+          <div class="faq-a">先确认系统版本达标，再给应用完整的存储权限；仍闪退可重启手机后单独打开，排除安全软件拦截。</div>
+        </details>
       </div>
     </div>
   </section>
